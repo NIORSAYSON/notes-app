@@ -1,15 +1,15 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { store } from "./store/store";
+import { PersistGate } from "redux-persist/integration/react";
+import { store, persistor } from "./store/store";
 import { useAppSelector } from "./store/hooks";
 import LoginScreen from "./screens/LoginScreen";
 import HomeScreen from "./screens/HomeScreen";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { ActivityIndicator, View } from "react-native";
 
 function AppContent() {
   const { isAuthenticated } = useAppSelector((state) => state.auth);
-
-  // console.log("App - isAuthenticated:", isAuthenticated); // Debug log
 
   return isAuthenticated ? <HomeScreen /> : <LoginScreen />;
 }
@@ -18,7 +18,20 @@ export default function App() {
   return (
     <SafeAreaProvider>
       <Provider store={store}>
-        <AppContent />
+        <PersistGate
+          loading={
+            <View
+              style={{
+                flex: 1,
+                justifyContent: "center",
+                alignItems: "center",
+              }}>
+              <ActivityIndicator size="large" color="#007AFF" />
+            </View>
+          }
+          persistor={persistor}>
+          <AppContent />
+        </PersistGate>
       </Provider>
     </SafeAreaProvider>
   );
