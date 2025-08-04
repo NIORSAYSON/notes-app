@@ -1,48 +1,52 @@
 # 📒 Notes App – React Native (Expo)
 
-A simple and intuitive mobile application built with **React Native**, featuring a secure login, persistent sessions, note creation/editing, and a clean, modern design inspired by [this Figma prototype](https://www.figma.com/design/z5HPX5jpns4Qqwr781rdqM/Untitled?node-id=42-2&t=KeAJEbWhdevIGIBS-1).
+A simple and intuitive mobile notes application built with **React Native**, featuring a secure login system, persistent sessions, and full CRUD functionality for personal notes — all wrapped in a clean, modern UI.
+
+> 🎨 Designed by **Nestor Sayson Jr.**  
+> 🔗 [View the Figma Design](https://www.figma.com/design/z5HPX5jpns4Qqwr781rdqM/Untitled?node-id=42-2&t=KeAJEbWhdevIGIBS-1)
+
+---
 
 ## ✨ Features
 
 ### 🔐 Login Screen
-- **Mock Credentials**:
-  - Username: `test`
-  - Password: `password123`
-- Input validation for empty fields and incorrect credentials
-- Successful login persists across app restarts (via `redux-persist`)
+- Mock credentials:
+  - **Username**: `test`
+  - **Password**: `password123`
+- Input validation for:
+  - Empty fields
+  - Incorrect credentials
+- Login session persists even after app restarts using `redux-persist`.
 
 ### 🏠 Home Dashboard
-- **Search Bar**: Filter notes by title or description in real-time
-- **Note List**:
-  - Shows created notes
-  - Each note displays title, description, **Edit** and **Delete** buttons
-- **Add Button**: Opens a modal to create a new note
+- **Search Bar**: Filter notes by title or description
+- **Note List**: Displays all saved notes
+- **Note Item**: Shows note title, description, with Edit and Delete buttons
+- **Add Button**: Opens a modal to add a new note
 - **Add Note Modal**:
   - Inputs for note title and description
-  - Includes "Cancel" and "Confirm" buttons
+  - Cancel and Confirm buttons
 - **Empty State UI**:
-  - If no notes are present, shows a message like _"No notes yet"_ with a "+" button to add one
-- **Logout Button**: Clears session and redirects to login screen
+  - Message: _"No notes yet"_
+  - "+" button to create a note
+- **Logout Button**: Clears session and redirects to Login screen
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **Framework**: [React Native](https://reactnative.dev/) via [Expo](https://expo.dev/)
+- **React Native** via [Expo](https://expo.dev/)
 - **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/) + [redux-persist](https://github.com/rt2zz/redux-persist)
 - **Navigation**: [React Navigation](https://reactnavigation.org/)
-- **UI/UX Design**: Based on [this Figma prototype](https://www.figma.com/design/z5HPX5jpns4Qqwr781rdqM/Untitled?node-id=42-2&t=KeAJEbWhdevIGIBS-1)
+- **UI/UX**: Custom-designed in Figma by Nestor Sayson Jr.
 
 ---
 
 ## 🚀 Setup Instructions
 
-### 1. Prerequisites
+### Prerequisites
 - Node.js (v18+ recommended)
-- Expo CLI (`npm install -g expo-cli`)
 - Git
-
-### 2. Clone the Repository
-```bash
-git clone https://github.com/yourusername/notes-app.git
-cd notes-app
+- Expo CLI installed globally
+  ```bash
+  npm install -g expo-cli
