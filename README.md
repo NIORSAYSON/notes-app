@@ -6,13 +6,13 @@ A simple and intuitive mobile notes application built with **React Native**, fea
 > 🔗 [View the Figma Design](https://www.figma.com/design/z5HPX5jpns4Qqwr781rdqM/Untitled?node-id=42-2&t=KeAJEbWhdevIGIBS-1)
 
 ---
-# How to Clone the Repository
+## How to Clone the Repository
 
 To clone the repository [https://github.com/NIORSAYSON/notes-app.git](https://github.com/NIORSAYSON/notes-app.git) to your local machine, follow these steps:
 
 ---
 
-## 1. Open Git Bash (or your terminal)
+### 1. Open Git Bash (or your terminal)
 Make sure you have **Git installed** on your system. You can check it by running:
 
 ```bash
@@ -21,7 +21,7 @@ git --version
 
 ---
 
-## 2. Navigate to the directory where you want to clone it
+### 2. Navigate to the directory where you want to clone it
 For example:
 
 ```bash
@@ -32,7 +32,7 @@ cd C:\Users\YourName\Documents\Projects
 
 ---
 
-## 3. Run the clone command
+### 3. Run the clone command
 
 ```bash
 git clone https://github.com/NIORSAYSON/notes-app.git
@@ -42,7 +42,7 @@ This will create a folder named `notes-app` in your current directory.
 
 ---
 
-## 4. Go into the project folder
+### 4. Go into the project folder
 
 ```bash
 cd notes-app
@@ -50,7 +50,7 @@ cd notes-app
 
 ---
 
-## 5. (Optional) Install dependencies
+### 5. (Optional) Install dependencies
 If this is a **Node.js/React Native/Expo** project, run:
 
 ```bash
