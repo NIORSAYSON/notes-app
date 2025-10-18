@@ -4,6 +4,7 @@ A simple and intuitive mobile notes application built with **React Native**, fea
 
 > 🎨 Designed by **Nestor Sayson Jr.**  
 > 🔗 [View the Figma Design](https://www.figma.com/design/z5HPX5jpns4Qqwr781rdqM/Untitled?node-id=42-2&t=KeAJEbWhdevIGIBS-1)
+> [APK Preview](https://drive.google.com/file/d/1X6J2I6EegVs064C6CmjyODn-Ak-CtXA0/view?usp=drivesdk)
 
 ---
 ## How to Clone the Repository
