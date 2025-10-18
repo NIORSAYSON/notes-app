@@ -3,8 +3,8 @@
 A simple and intuitive mobile notes application built with **React Native**, featuring a secure login system, persistent sessions, and full CRUD functionality for personal notes — all wrapped in a clean, modern UI.
 
 > 🎨 Designed by **Nestor Sayson Jr.**  
-> 🔗 [View the Figma Design](https://www.figma.com/design/z5HPX5jpns4Qqwr781rdqM/Untitled?node-id=42-2&t=KeAJEbWhdevIGIBS-1)
-> https://icons8.com/icon/110740/apk [APK Preview](https://drive.google.com/file/d/1X6J2I6EegVs064C6CmjyODn-Ak-CtXA0/view?usp=drivesdk)
+> 🔗 [View the Figma Design](https://www.figma.com/design/z5HPX5jpns4Qqwr781rdqM/Untitled?node-id=42-2&t=KeAJEbWhdevIGIBS-1) <br>
+> [APK Preview](https://drive.google.com/file/d/1X6J2I6EegVs064C6CmjyODn-Ak-CtXA0/view?usp=drivesdk)
 
 ---
 ## How to Clone the Repository
